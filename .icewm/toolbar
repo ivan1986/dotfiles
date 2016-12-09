@@ -1,0 +1,4 @@
+prog "Google Chrome" /usr/share/icons/hicolor/16x16/apps/google-chrome.png /usr/bin/google-chrome-stable
+prog "Krusader" /usr/share/icons/hicolor/16x16/apps/krusader_user.png krusader -caption "Krusader"
+prog "PhpStorm" /home/ivan/PhpStorm/bin/phpstorm.png /usr/local/bin/pstorm
+

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+nm-applet &
+altyo || qterminal -d || tilda &
+
+dropbox start &
+megasync &
+
+fbxkb &
+conky &
+

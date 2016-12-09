@@ -1,0 +1,17 @@
+TaskBarShowAPMStatus=1
+TaskBarShowMailboxStatus=0
+WorkspaceNames=" 1 ", " 2 "
+NetworkStatusDevice="eth0 wlan0 p2p1"
+
+ShowProgramsMenu = 0
+ShowThemesMenu = 0
+ShowHelp = 0
+ShowAbout = 0
+ShowRun = 0
+ShowWindowList = 0
+
+CPUStatusCommand='xterm -name top -title "TOP" -e /bin/sh -c "htop"'
+
+ShutdownCommand="sudo shutdown -h now"
+RebootCommand="sudo shutdown -r now"
+

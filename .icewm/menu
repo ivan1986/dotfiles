@@ -1,0 +1,36 @@
+# This is an example for IceWM's menu definition file.
+#
+# Place your variants in /etc/X11/icewm or in $HOME/.icewm
+# since modifications to this file will be discarded when you
+# (re)install icewm.
+#
+prog Terminal xterm x-terminal-emulator -ls
+separator
+include /var/cache/xdg-menu/icewm/programs
+separator
+menu System folder {
+    prog "Control Panel" redhat control-panel
+    prog xload xload xload
+    prog xosview xosview xosview
+    menu "Window Managers" folder {
+        restart icewm - icewm
+        restart icewm-gnome - icewm-gnome
+        restart icewm-experimental - icewm-experimental
+        restart icewm-lite - icewm-lite
+        restart wmaker - wmaker
+        restart enlightenment - enlightenment
+        restart blackbox - blackbox
+        restart sawfish - sawfish
+        restart sawfish2 - sawfish2
+        restart metacity - metacity
+        restart fvwm2 - fvwm2
+        restart fvwm - fvwm
+    }
+}
+menu Utilities folder {
+    prog xkill bomb xkill
+    separator
+    prog "Screen Saver" xlock xlock -nolock
+    prog "Screen Lock" xlock xlock
+}
+menufile Toolbar folder toolbar
