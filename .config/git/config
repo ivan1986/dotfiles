@@ -61,7 +61,7 @@
 [fetch]
 	prune = true
 [credential]
-	helper = store
+	helper = store --file ~/.config/git/credentials
 
 [include]
   path = user
