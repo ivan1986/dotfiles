@@ -1,0 +1,67 @@
+[color]
+	status = auto
+	branch = auto
+	diff = auto
+	ui = true
+
+[color "diff"]
+	new = yellow
+	old = red
+	meta = magenta
+	frag = cyan
+
+[alias]
+	st = status
+	br = branch
+	ba = branch -a -v -v
+	ci = commit
+	co = checkout
+	del   = rm -r --cached
+	up = pull --rebase --autostash --all
+	
+	d = diff -C
+	ds = diff -C --stat
+	dsp = diff -C --stat -p
+	dw = diff -C --color-words
+	
+	ls-del = ls-files -d
+	ls-mod = ls-files -m # включая удалённые файлы
+	ls-new = ls-files --exclude-standard -o
+	ls-ign = ls-files --exclude-standard -o -i
+
+	sb = show-branch --sha1-name
+
+	ka = !gitk --all
+	kasd = !gitk --all --simplify-by-decoration
+	kad = !gitk --all --date-order
+	l = log -C --decorate
+	ls = log -C --stat --decorate
+	lsp = log -C --stat -p --decorate
+	lsd = log --graph '--pretty=tformat:%C(yellow)%h%Creset %Cgreen%ar%Creset %C(yellow)%d%Creset %s' --all --simplify-by-decoration
+	lg = log --graph '--pretty=tformat:%C(yellow)%h%Creset %Cgreen%ar%Creset %C(yellow)%d%Creset %s'
+	chlog = log --graph '--pretty=tformat:%h %d %s'
+	
+	amend = commit --amend -C HEAD
+	mergenff = merge --no-ff
+	msg   = commit --amend
+	uncommit = reset --hard HEAD^
+	unstash = reset HEAD
+
+	work-dir = !sh /usr/share/doc/git/contrib/workdir/git-new-workdir
+	logpick = log --pretty='tformat:%h %s'
+	
+[http]
+	sslVerify = false
+[branch]
+	autosetuprebase = always
+[rerere]
+	enabled = 1
+[push]
+	default = simple
+[fetch]
+	prune = true
+[credential]
+	helper = store
+
+[include]
+  path = user
