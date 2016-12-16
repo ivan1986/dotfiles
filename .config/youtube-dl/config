@@ -1,0 +1,4 @@
+-f 'bestvideo[height<=720]+bestaudio/best[height<=720]'
+--netrc
+--mark-watched
+
