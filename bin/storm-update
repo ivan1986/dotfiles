@@ -1,0 +1,19 @@
+#!/bin/zsh
+# Update PhpStorm EAP
+
+LINK=$(wget https://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program -q -O - | grep -oP 'http://down[^"]*.tar.gz(?!")')
+
+OLD_VER=${$(cat PhpStorm/build.txt | sed 's/PS-//'):-0}
+NEW_VER=$(echo $LINK | grep -oP '(\d+\.)*\d+')
+
+dpkg --compare-versions $OLD_VER "lt" $NEW_VER
+if (( ! $? ));  then
+	echo "Update from $OLD_VER to $NEW_VER"
+	cd
+	wget $LINK -O PhpStorm.tar.gz
+	tar -xf PhpStorm.tar.gz
+        rm -rf PhpStorm	
+	mv PhpStorm-* PhpStorm
+	rm PhpStorm.tar.gz
+fi
+
