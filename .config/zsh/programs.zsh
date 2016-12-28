@@ -36,16 +36,12 @@ steamFix() {
 
 #####################################################################
 # улучшенный df
-[[ -f /usr/bin/pydf ]] && alias df="pydf"
+[[ -f /usr/bin/pydf ]] && alias df="pydf" || true
 
 #####################################################################
 # хороший поиск по ack
-[[ -f /usr/bin/ack-grep ]] && alias ack="ack-grep"
-
-#####################################################################
-# улучшенный df
-[[ -f /usr/bin/pydf ]] && alias df="pydf"
+[[ -f /usr/bin/ack-grep ]] && alias ack="ack-grep" || true
 
 #####################################################################
 # https://github.com/nvbn/thefuck
-[[ -f /usr/bin/thefuck ]] && eval $(thefuck --alias)
+[[ -f /usr/bin/thefuck ]] && eval $(thefuck --alias) || true

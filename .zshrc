@@ -20,6 +20,8 @@ autoload zsh/terminfo
 
 zplug "zplug/zplug"
 
+zplug "~/.config/zsh/*.zsh", from:local, use:"*.zsh"
+
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
 
@@ -33,14 +35,6 @@ fi
 
 # Then, source plugins and add commands to $PATH
 zplug load
-
-### Подключаем все конфиги
-config_files=($HOME/.config/zsh/*.zsh)
-# load the path files
-for file in $config_files
-do
-  source $file
-done
 
 ### Экспортировать все
 export PS1 NLSPATH PAGER MAIL LS_COLORS LS_OPTIONS LIBRARY_PATH \
