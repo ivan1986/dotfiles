@@ -1,0 +1,31 @@
+!какой терминал юзаем, отсюда уже и спецыфичные для терминала вещи
+!по типу цвет фона, полосе прокрутки и прочее
+yeahconsole*term:urxvtcd
+!высота
+yeahconsole*consoleHeight:50
+!хоткей для вызова (вместо None можно указать и Menu Control и прочее)
+yeahconsole*toggleKey:Control+grave
+!цвет фона
+!автоматический перезапуск при выходе
+yeahconsole*restart:1
+yeahconsole*aniDelay: 0
+!хоткей для разворачивания на весь экран
+yeahconsole*keyFull:None+F11
+!хоткеи дли изменения размера (минус и плюс на NumLock)
+yeahconsole*keySmaller:Control+KP_Subtract
+yeahconsole*keyBigger:Control+KP_Add
+! шрифты ("шрифты говно" © LOR)
+yeahconsole*faceName: xft:DejaVu Sans Mono:size=12
+yeahconsole*boldFont: xft:DejaVu Sans Mono:style=Bold:size=12
+!обрабатываем Esc по человечески
+yeahconsole*metaSendsEscape: true
+! цвет фона консоли
+yeahconsole*background: black
+! цвет текста
+yeahconsole*foreground: grey70
+
+! misc term features
+yeahconsole*loginShell: true
+yeahconsole*savelines: 10000
+yeahconsole*toolBar: false
+

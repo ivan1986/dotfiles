@@ -1,0 +1,3 @@
+! включаем отдельные файлы
+# include ".config/Xresources.d/urxvtrc"
+# include ".config/Xresources.d/yeahconsolerc"
