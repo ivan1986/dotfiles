@@ -1,3 +1,6 @@
 .ssh/id_rsa
 .netrc
 .config/git/credentials
+.gnupg/*.gpg
+.gnupg/*.kbx
+.gnupg/private-keys-v1.d/*.key
