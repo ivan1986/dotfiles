@@ -20,6 +20,8 @@ autoload zsh/terminfo
 
 zplug "zplug/zplug"
 
+zplug "plugins/git-prompt",   from:oh-my-zsh
+
 zplug "~/.config/zsh/*.zsh", from:local, use:"*.zsh"
 
 zplug "zsh-users/zsh-syntax-highlighting"
@@ -35,6 +37,24 @@ fi
 
 # Then, source plugins and add commands to $PATH
 zplug load
+
+source ~/.config/zsh/vars
+
+# Set the prompt.
+RPROMPT='$(git_super_status)'
+
+if [[ -n "$SSH_CLIENT" || -n "$SSH2_CLIENT" ]]; then
+  host="@%M" #SSH
+else
+  unset host # no SSH
+fi
+
+#  %(!.#.$) - $ как в bash
+#  %F{red}[%F{cyan}%D{%a %y/%m/%d %R %Z}%F{red}] - дата
+#  %F{red}[%F{green}%l%F{red}] - терминал
+PROMPT='%F{green}%n${host}%F{white}:%F{yellow}%~%f%(!.#.$) '
+
+PS1=$PROMPT
 
 ### Экспортировать все
 export PS1 NLSPATH PAGER MAIL LS_COLORS LS_OPTIONS LIBRARY_PATH \
