@@ -11,13 +11,16 @@
 	frag = cyan
 
 [alias]
-	st = status
+	st = status --short
 	br = branch
 	ba = branch -a -v -v
 	ci = commit
 	co = checkout
-	del   = rm -r --cached
-	up = pull --rebase --autostash --all
+	del = rm -r --cached
+
+	pull-all = !"for b in $(git for-each-ref refs/heads --format='%(refname)') ; do git checkout ${b#refs/heads/} ; git pull --ff-only ; done"
+	it = "!git init && git commit -m 'root' --allow-empty"
+	please = push --force-with-lease
 	
 	d = diff -C
 	ds = diff -C --stat
@@ -42,8 +45,8 @@
 	chlog = log --graph '--pretty=tformat:%h %d %s'
 	
 	amend = commit --amend -C HEAD
-	mergenff = merge --no-ff
-	msg   = commit --amend
+	merc = merge --no-ff
+	msg = commit --amend
 	uncommit = reset --hard HEAD^
 	unstash = reset HEAD
 
