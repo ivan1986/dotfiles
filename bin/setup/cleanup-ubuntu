@@ -2,10 +2,18 @@
 
 sudo apt purge \
 \
+at \
 apt-xapian-index \
 bamfdaemon \
 whoopsie \
 ubuntu-docs \
 empathy-common \
+example-content \
 gnome-calculator \
 gnome-system-log \
+yelp \
+
+
+sudo aptitude markauto '~i~n^gir1.2' '~i~n^ibus' '~i~nzeitgeist'
+sudo aptitude markauto '~i~n^python' '~i~n^libpython'
+sudo aptitude markauto '~i~slibs' '~i~sperl'
