@@ -1,0 +1,11 @@
+#!/bin/sh
+
+sudo apt purge \
+\
+apt-xapian-index \
+bamfdaemon \
+whoopsie \
+ubuntu-docs \
+empathy-common \
+gnome-calculator \
+gnome-system-log \
