@@ -15,5 +15,8 @@ yelp \
 
 
 sudo aptitude markauto '~i~n^gir1.2' '~i~n^ibus' '~i~nzeitgeist'
-sudo aptitude markauto '~i~n^python' '~i~n^libpython'
+sudo aptitude markauto '~i(~n^python !~n^python3-pip)' '~i~n^libpython'
 sudo aptitude markauto '~i~slibs' '~i~sperl'
+
+sudo apt autoremove
+sudo aptitude purge '~c'
