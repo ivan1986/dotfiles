@@ -21,6 +21,9 @@ nicemount() { (echo "DEVICE PATH TYPE FLAGS" && \mount | awk '$2=$4="";1') | col
 alias mount=nicemount
 
 #####################################################################
+ports() { sudo ss -tpln | column -t }
+
+#####################################################################
 ### Steam - очистка либ
 steamFix() {
 	find ~/.steam/root/ \( -name "libgcc_s.so*" -o -name "libstdc++.so*" -o -name "libxcb.so*" \) -print -delete
