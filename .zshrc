@@ -18,7 +18,7 @@ source ~/.zplug/init.zsh
 
 autoload zsh/terminfo
 
-zplug "zplug/zplug"
+zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
 zplug "plugins/git-prompt",   from:oh-my-zsh
 
