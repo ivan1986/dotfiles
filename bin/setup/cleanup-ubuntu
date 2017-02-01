@@ -12,6 +12,8 @@ example-content \
 gnome-calculator \
 gnome-system-log \
 yelp \
+update-manager-core \
+ubuntu-release-upgrader-core \
 
 
 sudo aptitude markauto '~i~n^gir1.2' '~i~n^ibus' '~i~nzeitgeist'
