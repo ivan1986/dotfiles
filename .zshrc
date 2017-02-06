@@ -22,10 +22,13 @@ zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
 zplug "plugins/git-prompt",   from:oh-my-zsh
 
-zplug "~/.config/zsh/*.zsh", from:local, use:"*.zsh"
+zplug "~/.config/zsh/*.zsh", from:local, use:"*.zsh", frozen:1
 
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
+
+bindkey '^[[1;5A' history-substring-search-up
+bindkey '^[[1;5B' history-substring-search-down
 
 # Install plugins if there are plugins that have not been installed
 if ! zplug check; then
