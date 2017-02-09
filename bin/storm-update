@@ -10,12 +10,31 @@ NEW_VER=$(echo $LINK | grep -oP '(\d+\.)*\d+')
 
 dpkg --compare-versions $OLD_VER "lt" $NEW_VER
 if (( ! $? ));  then
-	echo "Update from $OLD_VER to $NEW_VER"
-	cd
-	wget $LINK -O PhpStorm.tar.gz
-	tar -xf PhpStorm.tar.gz
-        rm -rf PhpStorm	
-	mv PhpStorm-* PhpStorm
-	rm PhpStorm.tar.gz
+  echo "Update from $OLD_VER to $NEW_VER"
+  cd
+  wget $LINK -O PhpStorm.tar.gz
+  tar -xf PhpStorm.tar.gz
+  rm -rf PhpStorm
+  mv PhpStorm-* PhpStorm
+  rm PhpStorm.tar.gz
 fi
 
+# Create desktop file if not exist
+if [[ -f ~/.local/share/applications/jetbrains-phpstorm.desktop ]]; then
+
+else
+
+cat >~/.local/share/applications/jetbrains-phpstorm.desktop <<EOF
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=PhpStorm
+Icon=$HOME/PhpStorm/bin/phpstorm.png
+Exec="$HOME/PhpStorm/bin/phpstorm.sh" %f
+Comment=Develop with pleasure!
+Categories=Development;IDE;
+Terminal=false
+StartupWMClass=jetbrains-phpstorm
+EOF
+
+fi
