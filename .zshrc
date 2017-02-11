@@ -8,17 +8,22 @@ typeset -ga preexec_functions
 typeset -ga precmd_functions
 typeset -ga chpwd_functions
 
-# Check if zplug is installed
-if [[ ! -d ~/.zplug ]]; then
-	git clone --depth 1 https://github.com/zplug/zplug ~/.zplug
-fi
+if [[ ! -f /usr/share/zplug/init.zsh ]]; then
+	# Check if zplug is installed
+	if [[ ! -d ~/.zplug ]]; then
+		git clone --depth 1 https://github.com/zplug/zplug ~/.zplug
+	fi
 
-# Essential
-source ~/.zplug/init.zsh
+    # Essential
+	source ~/.zplug/init.zsh
+	zplug 'zplug/zplug', hook-build:'zplug --self-manage'
+else
+	source /usr/share/zplug/init.zsh
+fi
 
 autoload zsh/terminfo
 
-zplug 'zplug/zplug', hook-build:'zplug --self-manage'
+#zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 
 zplug "plugins/git-prompt", from:oh-my-zsh
 
