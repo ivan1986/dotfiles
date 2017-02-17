@@ -1,0 +1,175 @@
+<application>
+  <component name="RecentDirectoryProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/vagrant/StripChat" />
+        <option value="$USER_HOME$/vagrant" />
+        <option value="$USER_HOME$/vagrant/fix" />
+        <option value="$USER_HOME$/projects/deb-pkg-gen" />
+        <option value="$USER_HOME$/projects/jira-conky" />
+        <option value="$USER_HOME$/projects/DevContainer" />
+        <option value="$USER_HOME$/vagrant/core" />
+        <option value="$USER_HOME$/vagrant/stripchat" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/vagrant/StripChat" />
+      </list>
+    </option>
+    <option name="names">
+      <map>
+        <entry key="$USER_HOME$/projects/DevContainer" value="DevContainer, deb-pkg-gen" />
+        <entry key="$USER_HOME$/projects/deb-pkg-gen" value="deb-pkg-gen, StripChat..." />
+      </map>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/vagrant/StripChat" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/projects/DevContainer">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-163.5644.4" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1475675160504" />
+              <option name="buildTimestamp" value="1475528400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/DevContainerBundle">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-163.4830.18" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1474958819151" />
+              <option name="buildTimestamp" value="1474405200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/deb-pkg-gen">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-171.2272.10" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1484231645189" />
+              <option name="buildTimestamp" value="1484139352000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/jira-conky">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-171.2152.2" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1484130010998" />
+              <option name="buildTimestamp" value="1483527919600" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/projects/serializer">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-162.1447.5" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1470755879274" />
+              <option name="buildTimestamp" value="1468875600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/vagrant">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-171.3019.12" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1487168329674" />
+              <option name="buildTimestamp" value="1486574626162" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/vagrant/StripChat">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-171.3224.10" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1487328235199" />
+              <option name="buildTimestamp" value="1487155848380" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/vagrant/StripChat/vendor/stripchat/core">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-162.1120.13" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1467623022421" />
+              <option name="buildTimestamp" value="1467147600000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/vagrant/core">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-163.4396.15" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1474037250939" />
+              <option name="buildTimestamp" value="1473800400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/vagrant/fix">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-171.2613.13" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1485791858578" />
+              <option name="buildTimestamp" value="1485358560056" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/vagrant/main">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-163.5644.4" />
+              <option name="productionCode" value="PS" />
+              <option name="eap" value="true" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1475852027531" />
+              <option name="buildTimestamp" value="1475528400000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/vagrant/stripchat">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="PS-145.258" />
+              <option name="productionCode" value="PS" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1459860365957" />
+              <option name="buildTimestamp" value="1458079200000" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/projects" />
+  </component>
+</application>

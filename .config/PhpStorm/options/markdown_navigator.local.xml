@@ -1,0 +1,13 @@
+<application>
+  <component name="ApplicationLocal" sharedSettingsMigrated="true">
+    <DocumentSettings showHtmlPreview="false" verbatimLangInjections="true" htmlLangInjections="true" syntaxHighlighting="1" softWraps="0" softWrapAtMargin="true" showEmojiInGutter="false" showBreadcrumbText="true" maxBreadcrumbText="30" previewScrollDelay="500" typingUpdateDelay="500" enableAnnotator="true" hideDisabledButtons="false" disableGifImages="true" codeLikeStyleToggle="true" toggleStylePunctuations=".,:;!?" />
+    <LicenseInformation licenseType="" showLicenseExpiration="true" showLicenseExpired="true" showFeatureUpdates="false" secureConnection="true">
+      <licenseCode />
+      <activationCode />
+    </LicenseInformation>
+    <Notifications showFeatureUpdates="true" />
+    <DebugSettings debugFormatText="false" debugCombinationColors="false" debugTestFileDirectory="" generateParserExceptions="false" flexmarkSpecExampleRendering="0" flexmarkSpecExampleRenderHtml="false" parsingTimeout="100" preferencesDialogWidth="1000" preferencesDialogHeight="1000" />
+    <FailedInBuild scratchFileServiceFailed="" fxPreviewFailedBuild="" lightParserFailedBuild="" />
+    <WasShown licensedAvailable="true" lastFeatureUpdateVersion="2.3.0" javaFxAvailable="false" jekyllFrontMatter="false" />
+  </component>
+</application>

@@ -1,0 +1,9 @@
+<application>
+  <component name="FindSettings">
+    <option name="customScope" value="File '[deb-pkg-gen] - .../bin/console'" />
+    <option name="defaultScopeName" value="File '[deb-pkg-gen] - .../bin/console'" />
+    <option name="wholeWordsOnly" value="true" />
+    <option name="WHOLE_WORDS_ONLY" value="true" />
+    <option name="SEARCH_SCOPE" value="File '[deb-pkg-gen] - .../bin/console'" />
+  </component>
+</application>

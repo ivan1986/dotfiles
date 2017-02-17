@@ -1,0 +1,9 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="console" type="PHP" />
+      <mapping pattern="ssh-config" type="PLAIN_TEXT" />
+      <mapping ext="cfg" type="PLAIN_TEXT" />
+    </extensionMap>
+  </component>
+</application>

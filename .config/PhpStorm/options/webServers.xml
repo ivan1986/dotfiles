@@ -1,0 +1,14 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="eb89ef99-8503-430d-8e98-62f00e8037c7" name="docker" url="http://stripchat.local">
+        <fileTransfer host="stripchat.local" port="22" rootFolder="/vagrant" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

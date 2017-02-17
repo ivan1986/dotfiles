@@ -1,0 +1,29 @@
+<application>
+  <component name="PhpAnnotationsPlugin">
+    <option name="useAliasOptions">
+      <list>
+        <UseAliasOption>
+          <option name="alias" value="Assert" />
+          <option name="className" value="Symfony\Component\Validator\Constraints" />
+        </UseAliasOption>
+        <UseAliasOption>
+          <option name="alias" value="ORM" />
+          <option name="className" value="Doctrine\ORM\Mapping" />
+        </UseAliasOption>
+        <UseAliasOption>
+          <option name="alias" value="DI" />
+          <option name="className" value="JMS\DiExtraBundle\Annotation" />
+        </UseAliasOption>
+        <UseAliasOption>
+          <option name="alias" value="Serializer" />
+          <option name="className" value="JMS\Serializer\Annotation" />
+        </UseAliasOption>
+        <UseAliasOption>
+          <option name="alias" value="Gedmo" />
+          <option name="className" value="Gedmo\Mapping\Annotation" />
+        </UseAliasOption>
+      </list>
+    </option>
+    <option name="provideDefaults" value="false" />
+  </component>
+</application>

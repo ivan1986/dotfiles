@@ -24,7 +24,7 @@ if [[ -f ~/.local/share/applications/jetbrains-phpstorm.desktop ]]; then
 
 else
 
-cat >~/.local/share/applications/jetbrains-phpstorm.desktop <<EOF
+cat > $HOME/.local/share/applications/jetbrains-phpstorm.desktop <<EOF
 [Desktop Entry]
 Version=1.0
 Type=Application
@@ -37,4 +37,8 @@ Terminal=false
 StartupWMClass=jetbrains-phpstorm
 EOF
 
+fi
+
+if [[ -f $HOME/.config/idea.properties ]]; then
+    ln -sf $HOME/.config/idea.properties $HOME/PhpStorm/bin/idea.properties
 fi

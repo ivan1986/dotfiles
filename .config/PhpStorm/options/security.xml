@@ -1,0 +1,6 @@
+<application>
+  <component name="PasswordSafe">
+    <option name="PROVIDER" value="KEEPASS" />
+    <option name="keepassDb" value="$USER_HOME$/Dropbox/keepassx/phpstorm.kdbx" />
+  </component>
+</application>

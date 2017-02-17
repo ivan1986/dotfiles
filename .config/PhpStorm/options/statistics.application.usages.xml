@@ -1,0 +1,254 @@
+<application>
+  <component name="StatisticsApplicationUsages">
+    <group name="JavaScript versions">
+      <project id="DevContainerBundle" values="ECMAScript 5.1" collectionTime="1474966706345" />
+      <project id="deb-pkg-gen" values="ECMAScript 5.1" collectionTime="1484231780083" />
+      <project id="jira-conky" values="ECMAScript 5.1" collectionTime="1484135070877" />
+      <project id="fix" values="React JSX" collectionTime="1484921215717" />
+      <project id="core" values="ECMAScript 5.1" collectionTime="1473933782021" />
+      <project id="serializer" values="ECMAScript 5.1" collectionTime="1470758704126" />
+      <project id="main" values="ECMAScript 5.1" collectionTime="1474034568309" />
+      <project id="DevContainer" values="ECMAScript 5.1" collectionTime="1475762988597" />
+      <project id="StripChat" values="React JSX" collectionTime="1487328180528" />
+    </group>
+    <group name="php-interpreter-version">
+      <project id="DevContainerBundle" values="not installed" collectionTime="1474966706345" />
+      <project id="deb-pkg-gen" values="not installed" collectionTime="1484231780092" />
+      <project id="jira-conky" values="not installed" collectionTime="1484135070877" />
+      <project id="fix" values="not installed" collectionTime="1484921215717" />
+      <project id="core" values="not installed" collectionTime="1473933782021" />
+      <project id="serializer" values="not installed" collectionTime="1470758704126" />
+      <project id="main" values="not installed" collectionTime="1474034568310" />
+      <project id="DevContainer" values="not installed" collectionTime="1475762988597" />
+      <project id="StripChat" values="7.1.1" collectionTime="1487328180581" />
+    </group>
+    <group name="vcs">
+      <project id="DevContainerBundle" values="Git" collectionTime="1474966706326" />
+      <project id="deb-pkg-gen" values="Git" collectionTime="1484231779838" />
+      <project id="fix" values="Git" collectionTime="1484921215689" />
+      <project id="core" values="Git" collectionTime="1473933782016" />
+      <project id="serializer" values="Git" collectionTime="1470758704119" />
+      <project id="main" values="Git" collectionTime="1474034568281" />
+      <project id="DevContainer" values="Git" collectionTime="1475762988594" />
+      <project id="StripChat" values="Git" collectionTime="1487328180301" />
+    </group>
+    <group name="VCS Log 2">
+      <project id="DevContainerBundle" values="data.git.root.count.1,data.commit.count.100+" collectionTime="1474966706343" />
+      <project id="deb-pkg-gen" values="data.git.root.count.2+,data.branches.count.100+,data.commit.count.10K+" collectionTime="1484231779887" />
+      <project id="fix" values="data.branches.count.100+,data.git.root.count.1,data.commit.count.10K+,data.users.count.10+" collectionTime="1484921215714" />
+      <project id="core" values="data.git.root.count.1,data.commit.count.100+" collectionTime="1473933782020" />
+      <project id="serializer" values="data.git.root.count.1,data.commit.count.100+" collectionTime="1470758704125" />
+      <project id="main" values="data.git.root.count.1,data.commit.count.10K+" collectionTime="1474034568309" />
+      <project id="DevContainer" values="data.commit.count.100+,data.git.root.count.1" collectionTime="1475762988596" />
+      <project id="StripChat" values="data.users.count.10+,data.git.root.count.2+,data.branches.count.100+,data.commit.count.10K+" collectionTime="1487328180363" />
+    </group>
+    <group name="run-configuration-type">
+      <project id="StripChat" values="CodeceptionConfigurationType" collectionTime="1487328180303" />
+    </group>
+    <group name="jdbc-driver">
+      <project id="StripChat" values="com.mysql.jdbc.Driver,com.mysql.jdbc.Driver" collectionTime="1487328180563" />
+    </group>
+    <group name="file-type">
+      <project id="DevContainerBundle" values="JSON,ARCHIVE,CSS,UNKNOWN,YAML,PLAIN_TEXT,Less,C++,Markdown,Locale,HTML,ReST,JSCS,SCSS,htaccess,PHP,SQL,Git file,SmartyConfig,IDEA_MODULE,JSHint,Ini,Bash,Sass,Twig,SourceMap,XML,Images,PHAR,JavaScript,TypeScript" collectionTime="1474966706343" />
+      <project id="deb-pkg-gen" values="JSCS,JSHint,PLAIN_TEXT,UNKNOWN,Dockerfile,JSON,PHP,HTML,Docker file,Images,JavaScript,C++,Less,XML,JSX Harmony,SmartyConfig,IDEA_MODULE,YAML,Markdown,Twig,htaccess,CSS,ReST,Git file,SQL,SourceMap,Cucumber,Sass,Bash,SCSS" collectionTime="1484231779873" />
+      <project id="jira-conky" values="Git file,JSON,XML,PHP,PLAIN_TEXT,Markdown,C++,Images,YAML,UNKNOWN" collectionTime="1484135070869" />
+      <project id="fix" values="Images,YAML,SCSS,PLAIN_TEXT,XML,CSS,JSON,Git file,JavaScript,HTML,PHP,JSX Harmony,UNKNOWN,Markdown,Bash" collectionTime="1484921215698" />
+      <project id="core" values="Ini,PLAIN_TEXT,Locale,YAML,UNKNOWN,JavaScript,JSON,Git file,TypeScript,Bash,Markdown,XML,ARCHIVE,ReST,HTML,CSS,PHP,Images" collectionTime="1473933782020" />
+      <project id="serializer" values="PHP,ReST,PLAIN_TEXT,JSON Schema,YAML,Markdown,XML,Git file" collectionTime="1470758704125" />
+      <project id="main" values="Git file,HAML,Images,Markdown,JSX Harmony,SourceMap,Ini,htaccess,SCSS,JSON,PHP,Bash,YAML,Native,JSHint,UNKNOWN,Dockerfile,Perl,ActionScript,XML,Less,PLAIN_TEXT,CSS,SQL,PHAR,JavaScript,SmartyConfig,HTML" collectionTime="1474034568288" />
+      <project id="DevContainer" values="Twig,Dockerfile,Less,Images,Markdown,Git file,Sass,JavaScript,JSHint,UNKNOWN,htaccess,PHP,CSS,SCSS,SmartyConfig,C++,Docker file,YAML,SourceMap,XML,HTML,IDEA_MODULE,PLAIN_TEXT,JSON,Bash,JSCS,ReST" collectionTime="1475762988596" />
+      <project id="StripChat" values="UNKNOWN,ARCHIVE,Locale,SourceMap,XML,ReST,Git file,HTML,TypeScript,Bash,PLAIN_TEXT,SCSS,JavaScript,JSON,YAML,SQL,Images,IDEA_MODULE,Markdown,PHP,Ini,JSX Harmony,CSS" collectionTime="1487328180322" />
+    </group>
+    <group name="vcs-options">
+      <project id="StripChat" values="commit.before.optimize.imports.disabled,perform.checkout.in.background.enabled,changelist.make.new.active.disabled,commit.before.check.code.smell.enabled,perform.add_remove.in.background.enabled,commit.before.reformat.file.disabled,commit.clear.initial.comment.disabled,changelist.preselect.existing.disabled,commit.before.check.files.up.to.date.disabled,commit.before.check.todo.enabled,show.changes.preview.disabled,include.text.into.shelf.disabled,perform.rollback.in.background.disabled,commit.before.check.code.cleanup.disabled,commit.before.check.non.empty.comment.disabled,perform.update.in.background.enabled,perform.commit.in.background.enabled,offer.move.partially.committed.disabled,perform.edit.in.background.enabled,offer.move.failed.committed.do_nothing_silently,commit.use.right.margin.enabled,offer.remove.empty.changelist.show_confirmation,commit.show.unversioned.enabled,commit.before.reformat.project.disabled,check.conflicts.in.background.disabled,commit.before.rearrange.disabled" collectionTime="1487328180302" />
+      <project id="fix" values="include.text.into.shelf.disabled,perform.rollback.in.background.disabled,commit.before.check.todo.enabled,changelist.preselect.existing.disabled,commit.before.check.code.cleanup.disabled,commit.show.unversioned.enabled,offer.move.failed.committed.do_nothing_silently,commit.before.check.files.up.to.date.disabled,changelist.make.new.active.disabled,show.changes.preview.disabled,perform.checkout.in.background.enabled,perform.update.in.background.enabled,commit.clear.initial.comment.disabled,offer.move.partially.committed.disabled,commit.before.optimize.imports.disabled,commit.use.right.margin.enabled,commit.before.reformat.project.disabled,perform.commit.in.background.enabled,commit.before.check.code.smell.enabled,commit.before.rearrange.disabled,perform.add_remove.in.background.enabled,commit.before.check.non.empty.comment.disabled,offer.remove.empty.changelist.show_confirmation,check.conflicts.in.background.disabled,commit.before.reformat.file.disabled,perform.edit.in.background.enabled" collectionTime="1484921215689" />
+      <project id="jira-conky" values="check.conflicts.in.background.disabled,commit.clear.initial.comment.disabled,offer.move.failed.committed.do_nothing_silently,perform.rollback.in.background.disabled,commit.before.check.todo.enabled,offer.move.partially.committed.disabled,commit.before.reformat.file.disabled,perform.edit.in.background.enabled,commit.use.right.margin.enabled,show.changes.preview.disabled,perform.checkout.in.background.enabled,commit.show.unversioned.enabled,offer.remove.empty.changelist.show_confirmation,commit.before.check.code.smell.enabled,include.text.into.shelf.disabled,changelist.preselect.existing.disabled,perform.add_remove.in.background.enabled,commit.before.reformat.project.disabled,commit.before.check.code.cleanup.disabled,perform.commit.in.background.enabled,commit.before.check.non.empty.comment.disabled,perform.update.in.background.enabled,changelist.make.new.active.disabled,commit.before.check.files.up.to.date.disabled,commit.before.rearrange.disabled,commit.before.optimize.imports.disabled" collectionTime="1484135070867" />
+      <project id="deb-pkg-gen" values="include.text.into.shelf.disabled,commit.before.reformat.project.disabled,show.changes.preview.disabled,commit.before.reformat.file.disabled,perform.update.in.background.enabled,offer.remove.empty.changelist.show_confirmation,commit.before.check.code.smell.enabled,commit.before.check.todo.enabled,perform.add_remove.in.background.enabled,commit.before.check.code.cleanup.disabled,check.conflicts.in.background.disabled,perform.edit.in.background.enabled,changelist.preselect.existing.disabled,offer.move.partially.committed.disabled,commit.clear.initial.comment.disabled,changelist.make.new.active.disabled,commit.before.rearrange.disabled,perform.commit.in.background.enabled,offer.move.failed.committed.do_nothing_silently,commit.before.check.files.up.to.date.disabled,commit.before.check.non.empty.comment.disabled,perform.rollback.in.background.disabled,commit.before.optimize.imports.disabled,commit.use.right.margin.enabled,commit.show.unversioned.enabled,perform.checkout.in.background.enabled" collectionTime="1484231779840" />
+    </group>
+    <group name="php-debug-skipped-paths">
+      <project id="DevContainerBundle" values="0" collectionTime="1474966706345" />
+      <project id="deb-pkg-gen" values="0" collectionTime="1484231780094" />
+      <project id="jira-conky" values="0" collectionTime="1484135070877" />
+      <project id="fix" values="0" collectionTime="1484921215717" />
+      <project id="core" values="0" collectionTime="1473933782021" />
+      <project id="serializer" values="0" collectionTime="1470758704126" />
+      <project id="main" values="0" collectionTime="1474034568310" />
+      <project id="DevContainer" values="0" collectionTime="1475762988597" />
+      <project id="StripChat" values="0" collectionTime="1487328180586" />
+    </group>
+    <group name="jdbc-datasource">
+      <project id="StripChat" values="MySQL/5.5.5-10.0.28-MariaDB,MySQL/5.5.5-10.0.29-MariaDB" collectionTime="1487328180563" />
+    </group>
+    <group name="php-interpreter-debug-ext">
+      <project id="StripChat" values="xdebug" collectionTime="1487328180585" />
+    </group>
+    <group name="module type">
+      <project id="DevContainerBundle" values="WEB_MODULE" collectionTime="1474966706326" />
+      <project id="deb-pkg-gen" values="WEB_MODULE" collectionTime="1484231779841" />
+      <project id="jira-conky" values="WEB_MODULE" collectionTime="1484135070867" />
+      <project id="fix" values="WEB_MODULE" collectionTime="1484921215689" />
+      <project id="core" values="WEB_MODULE" collectionTime="1473933782016" />
+      <project id="serializer" values="WEB_MODULE" collectionTime="1470758704119" />
+      <project id="main" values="WEB_MODULE" collectionTime="1474034568281" />
+      <project id="DevContainer" values="WEB_MODULE" collectionTime="1475762988594" />
+      <project id="StripChat" values="WEB_MODULE" collectionTime="1487328180303" />
+    </group>
+    <group name="deployment server">
+      <project id="DevContainerBundle" values="SFTP" collectionTime="1474966706345" />
+      <project id="deb-pkg-gen" values="SFTP" collectionTime="1484231780083" />
+      <project id="jira-conky" values="SFTP" collectionTime="1484135070877" />
+      <project id="fix" values="SFTP" collectionTime="1484921215717" />
+      <project id="DevContainer" values="SFTP" collectionTime="1475762988597" />
+      <project id="StripChat" values="SFTP" collectionTime="1487328180528" />
+    </group>
+    <group name="php-interpreters">
+      <project id="DevContainerBundle" values="1" collectionTime="1474966706345" />
+      <project id="deb-pkg-gen" values="1" collectionTime="1484231780092" />
+      <project id="jira-conky" values="1" collectionTime="1484135070877" />
+      <project id="fix" values="1" collectionTime="1484921215717" />
+      <project id="core" values="1" collectionTime="1473933782021" />
+      <project id="serializer" values="0" collectionTime="1470758704126" />
+      <project id="main" values="1" collectionTime="1474034568310" />
+      <project id="DevContainer" values="1" collectionTime="1475762988597" />
+      <project id="StripChat" values="2" collectionTime="1487328180581" />
+    </group>
+    <group name="javaScript Scope Usages">
+      <project id="DevContainerBundle" values="Project,Project" collectionTime="1474966706345" />
+      <project id="deb-pkg-gen" values="Directory,Project" collectionTime="1484231780083" />
+      <project id="jira-conky" values="Project" collectionTime="1484135070877" />
+      <project id="fix" values="Project" collectionTime="1484921215717" />
+      <project id="core" values="Project,Project" collectionTime="1473933782021" />
+      <project id="serializer" values="Project,Project" collectionTime="1470758704126" />
+      <project id="main" values="Project,Project" collectionTime="1474034568309" />
+      <project id="DevContainer" values="Project,Project" collectionTime="1475762988597" />
+      <project id="StripChat" values="Directory,Project" collectionTime="1487328180528" />
+    </group>
+    <group name="Git">
+      <project id="DevContainerBundle" values="config.push.autoupdate.disabled,config.update.type.BRANCH_DEFAULT,config.warn.about.detached.enabled,data.local.branches.count.1,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.save.policy.STASH,data.remote.branches.count.1,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.force.push.enabled,data.remotes.in.project.1,config.ssh.enabled" collectionTime="1474966706343" />
+      <project id="deb-pkg-gen" values="config.repo.sync.NOT_DECIDED,config.save.policy.STASH,data.remote.branches.count.1,data.remotes.in.project.1,config.push.autoupdate.disabled,config.push.update.all.roots.enabled,data.remote.branches.count.1,data.remotes.in.project.1,data.remotes.in.project.1,data.remote.branches.count.100+,config.ssh.disabled,config.warn.about.detached.enabled,data.local.branches.count.1,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,data.local.branches.count.1,data.local.branches.count.50+" collectionTime="1484231779887" />
+      <project id="jira-conky" values="config.save.policy.STASH,config.repo.sync.NOT_DECIDED,config.warn.about.detached.enabled,config.warn.about.crlf.enabled,config.ssh.disabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,config.push.update.all.roots.enabled,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled" collectionTime="1484135070875" />
+      <project id="fix" values="config.cherry-pick.autocommit.disabled,config.ssh.disabled,data.remotes.in.project.1,config.warn.about.detached.enabled,config.push.autoupdate.disabled,config.warn.about.crlf.enabled,config.repo.sync.DONT_SYNC,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.force.push.enabled,config.save.policy.STASH,data.remote.branches.count.100+,data.local.branches.count.30+" collectionTime="1484921215714" />
+      <project id="core" values="config.save.policy.STASH,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.push.update.all.roots.enabled,config.warn.about.crlf.enabled,config.warn.about.detached.enabled,data.remote.branches.count.2+,config.ssh.enabled,data.local.branches.count.2+,data.remotes.in.project.1,config.cherry-pick.autocommit.disabled,config.push.autoupdate.disabled,config.repo.sync.NOT_DECIDED" collectionTime="1473933782020" />
+      <project id="serializer" values="config.warn.about.crlf.enabled,config.repo.sync.NOT_DECIDED,data.local.branches.count.2+,config.push.autoupdate.disabled,config.save.policy.STASH,config.push.update.all.roots.enabled,config.cherry-pick.autocommit.disabled,config.update.type.BRANCH_DEFAULT,config.force.push.enabled,data.remote.branches.count.2+,config.warn.about.detached.enabled,data.remotes.in.project.2+,config.ssh.enabled" collectionTime="1470758704125" />
+      <project id="main" values="config.force.push.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,data.local.branches.count.1,config.save.policy.STASH,data.remotes.in.project.1,config.push.autoupdate.disabled,config.cherry-pick.autocommit.disabled,config.warn.about.crlf.enabled,config.push.update.all.roots.enabled,config.ssh.enabled,config.warn.about.detached.enabled,data.remote.branches.count.100+" collectionTime="1474034568309" />
+      <project id="DevContainer" values="data.remote.branches.count.1,config.ssh.enabled,config.push.autoupdate.disabled,config.save.policy.STASH,config.force.push.enabled,config.warn.about.crlf.enabled,data.local.branches.count.1,config.push.update.all.roots.enabled,config.repo.sync.NOT_DECIDED,config.update.type.BRANCH_DEFAULT,data.remotes.in.project.1,config.warn.about.detached.enabled,config.cherry-pick.autocommit.disabled" collectionTime="1475762988597" />
+      <project id="StripChat" values="config.push.autoupdate.disabled,config.ssh.disabled,config.push.update.all.roots.enabled,data.local.branches.count.50+,config.repo.sync.DONT_SYNC,data.remotes.in.project.1,data.remote.branches.count.5+,config.save.policy.STASH,config.cherry-pick.autocommit.disabled,config.warn.about.detached.enabled,data.remotes.in.project.1,config.force.push.enabled,config.update.type.BRANCH_DEFAULT,config.warn.about.crlf.enabled,data.local.branches.count.2+,data.remote.branches.count.100+" collectionTime="1487328180363" />
+    </group>
+    <group name="images.ide.background">
+      <project id="DevContainerBundle" values="frame 0,editor 0" collectionTime="1474966706343" />
+      <project id="deb-pkg-gen" values="frame 0,editor 0" collectionTime="1484231779887" />
+      <project id="jira-conky" values="editor 0,frame 0" collectionTime="1484135070875" />
+      <project id="fix" values="editor 0,frame 0" collectionTime="1484921215714" />
+      <project id="core" values="editor 0,frame 0" collectionTime="1473933782020" />
+      <project id="serializer" values="editor 0,frame 0" collectionTime="1470758704125" />
+      <project id="main" values="frame 0,editor 0" collectionTime="1474034568309" />
+      <project id="DevContainer" values="frame 0,editor 0" collectionTime="1475762988596" />
+      <project id="StripChat" values="editor 0,frame 0" collectionTime="1487328180363" />
+    </group>
+    <group name="php-servers">
+      <project id="DevContainerBundle" values="0" collectionTime="1474966706345" />
+      <project id="deb-pkg-gen" values="0" collectionTime="1484231780092" />
+      <project id="jira-conky" values="0" collectionTime="1484135070877" />
+      <project id="fix" values="0" collectionTime="1484921215717" />
+      <project id="core" values="0" collectionTime="1473933782021" />
+      <project id="serializer" values="0" collectionTime="1470758704126" />
+      <project id="main" values="0" collectionTime="1474034568309" />
+      <project id="DevContainer" values="0" collectionTime="1475762988597" />
+      <project id="StripChat" values="2" collectionTime="1487328180570" />
+    </group>
+    <group name="php-include-path">
+      <project id="DevContainerBundle" values="0" collectionTime="1474966706345" />
+      <project id="deb-pkg-gen" values="119" collectionTime="1484231780084" />
+      <project id="jira-conky" values="0" collectionTime="1484135070877" />
+      <project id="fix" values="0" collectionTime="1484921215717" />
+      <project id="core" values="0" collectionTime="1473933782021" />
+      <project id="serializer" values="0" collectionTime="1470758704126" />
+      <project id="main" values="0" collectionTime="1474034568309" />
+      <project id="DevContainer" values="0" collectionTime="1475762988597" />
+      <project id="StripChat" values="102" collectionTime="1487328180564" />
+    </group>
+  </component>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="AbstractNewProjectStep.Symfony" count="1" />
+      <entry feature="CreateFile.CreateFileAction" count="15" />
+      <entry feature="OpenInBrowser.Chrome" count="2" />
+      <entry feature="StripeButton[Version Control].hidden" count="1" />
+      <entry feature="StripeButton[Version Control].shown" count="1" />
+      <entry feature="StripeButton[Version_Control].shown" count="2" />
+      <entry feature="configure.code.style.on.selected.fragment" count="1" />
+      <entry feature="execute.CodeceptionConfigurationType.Debug" count="2" />
+      <entry feature="execute.CodeceptionConfigurationType.Run" count="34" />
+      <entry feature="execute.PHPUnitRunConfigurationType.Coverage" count="5" />
+      <entry feature="execute.PHPUnitRunConfigurationType.Debug" count="2" />
+      <entry feature="execute.PHPUnitRunConfigurationType.Run" count="11" />
+      <entry feature="execute.PhpRemoteDebugRunConfigurationType.Debug" count="3" />
+      <entry feature="execute.js.build_tools.npm.Run" count="5" />
+      <entry feature="git.branch.checkout.local" count="4" />
+      <entry feature="git.branch.delete.local" count="2" />
+      <entry feature="ide.help.Colorblind_Settings" count="2" />
+      <entry feature="ide.help.reference.VersionControl.Git.UpdateProject" count="1" />
+      <entry feature="ide.help.reference.settings.php.interpreters" count="1" />
+      <entry feature="ide.help.reference.toolWindows.Coverage" count="1" />
+      <entry feature="ide.help.reference.webide.settings.project.settings.php.codeception" count="1" />
+      <entry feature="ide.settings.Appearance" count="35" />
+      <entry feature="ide.settings.Atlassian_Connector" count="8" />
+      <entry feature="ide.settings.Atlassian_Connector_-_Project" count="2" />
+      <entry feature="ide.settings.Behat" count="3" />
+      <entry feature="ide.settings.Code_Sniffer" count="2" />
+      <entry feature="ide.settings.Code_Style" count="2" />
+      <entry feature="ide.settings.Codeception" count="3" />
+      <entry feature="ide.settings.Colors_&amp;_Fonts" count="39" />
+      <entry feature="ide.settings.Composer" count="1" />
+      <entry feature="ide.settings.DBGp_Proxy" count="1" />
+      <entry feature="ide.settings.Debug" count="2" />
+      <entry feature="ide.settings.Deployment" count="3" />
+      <entry feature="ide.settings.Directories" count="2" />
+      <entry feature="ide.settings.Docker" count="3" />
+      <entry feature="ide.settings.Docker_Machine" count="1" />
+      <entry feature="ide.settings.Docker_Registry" count="1" />
+      <entry feature="ide.settings.ESLint" count="1" />
+      <entry feature="ide.settings.Editor_Tabs" count="1" />
+      <entry feature="ide.settings.File_Colors" count="8" />
+      <entry feature="ide.settings.File_Encodings" count="1" />
+      <entry feature="ide.settings.File_Types" count="2" />
+      <entry feature="ide.settings.File_and_Code_Templates" count="4" />
+      <entry feature="ide.settings.Font" count="1" />
+      <entry feature="ide.settings.General" count="6" />
+      <entry feature="ide.settings.Git" count="1" />
+      <entry feature="ide.settings.Inspections" count="3" />
+      <entry feature="ide.settings.JavaScript" count="21" />
+      <entry feature="ide.settings.Keymap" count="3" />
+      <entry feature="ide.settings.Language_Defaults" count="4" />
+      <entry feature="ide.settings.Libraries" count="1" />
+      <entry feature="ide.settings.Markdown" count="3" />
+      <entry feature="ide.settings.Mess_Detector" count="2" />
+      <entry feature="ide.settings.MultiMarkdown" count="1" />
+      <entry feature="ide.settings.Node.js_and_NPM" count="1" />
+      <entry feature="ide.settings.PHP" count="27" />
+      <entry feature="ide.settings.PHPUnit" count="1" />
+      <entry feature="ide.settings.Passwords" count="3" />
+      <entry feature="ide.settings.Plugins" count="22" />
+      <entry feature="ide.settings.Quick_Lists" count="4" />
+      <entry feature="ide.settings.SQL_Dialects" count="2" />
+      <entry feature="ide.settings.Scopes" count="5" />
+      <entry feature="ide.settings.SensioLabsInsight" count="1" />
+      <entry feature="ide.settings.Servers" count="6" />
+      <entry feature="ide.settings.Smart_Keys" count="1" />
+      <entry feature="ide.settings.System_Settings" count="1" />
+      <entry feature="ide.settings.Time_Tracking" count="1" />
+      <entry feature="ide.settings.Updates" count="1" />
+      <entry feature="ide.settings.Vagrant" count="3" />
+      <entry feature="ide.settings.Version_Control" count="1" />
+      <entry feature="ide.settings.Web_Browsers" count="1" />
+      <entry feature="ideaapp.started" count="127" />
+      <entry feature="json.schema.builtin.completion" count="3" />
+      <entry feature="terminal.linux" count="31" />
+      <entry feature="terminal.ssh" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Configure" count="3" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateWebProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.Settings" count="3" />
+    </counts>
+  </component>
+</application>
