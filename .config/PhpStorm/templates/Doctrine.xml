@@ -1,0 +1,23 @@
+<templateSet group="Doctrine">
+  <template name="d2field" value="/**&#10; * @var $TYPE_PHP$&#10; * @ORM\Column(type=&quot;$TYPE_DOCTRINE$&quot;)&#10; */&#10;protected $$$NAME$;&#10;public function get$CNAME$() { return $this-&gt;$NAME$; }&#10;public function set$CNAME$($$$NAME$) { $this-&gt;$NAME$ = $$$NAME$; return $this;}&#10;" description="Doctrine 2 Field" toReformat="false" toShortenFQNames="true">
+    <variable name="TYPE_DOCTRINE" expression="" defaultValue="string" alwaysStopAt="true" />
+    <variable name="TYPE_PHP" expression="" defaultValue="TYPE_DOCTRINE" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CNAME" expression="capitalize(String)" defaultValue="capitalize(NAME)" alwaysStopAt="false" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+  <template name="d2m2m" value="/**&#10; * @var \Doctrine\Common\Collections\Collection|$CLASS$[]&#10; * @ORM\ManyToMany(targetEntity=&quot;$CLASS$&quot;, $MAP$=&quot;$FIELD_MAP$&quot;)&#10; */&#10;protected $$$FIELD$;&#10;public function get$CFIELD$() { return $this-&gt;$FIELD$; }&#10;public function add$CLASS$($CLASS$ $$$var$) {&#10;    if ($this-&gt;$FIELD$-&gt;contains($$$var$)) {&#10;        return;&#10;    }&#10;    $this-&gt;$FIELD$-&gt;add($$$var$);&#10;    $$$var$-&gt;add$MY_CLASS$($this);&#10;}&#10;public function remove$CLASS$($CLASS$ $$$var$) {&#10;    if (!$this-&gt;$FIELD$-&gt;contains($$$var$)) {&#10;        return;&#10;    }&#10;    $this-&gt;$FIELD$-&gt;remove($$$var$);&#10;    $$$var$-&gt;remove$MY_CLASS$($this);&#10;}" description="Doctrine 2 Many to many" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MAP" expression="enum(...)" defaultValue="enum(&quot;mappedBy&quot;, &quot;inversedBy&quot;)" alwaysStopAt="true" />
+    <variable name="FIELD_MAP" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="MY_CLASS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var" expression="decapitalize(String)" defaultValue="decapitalize(CLASS)" alwaysStopAt="false" />
+    <variable name="FIELD" expression="concat(expressions...)" defaultValue="concat(var, &quot;s&quot;)" alwaysStopAt="false" />
+    <variable name="CFIELD" expression="capitalize(String)" defaultValue="capitalize(FIELD)" alwaysStopAt="false" />
+    <context>
+      <option name="PHP Class Member" value="true" />
+    </context>
+  </template>
+</templateSet>
