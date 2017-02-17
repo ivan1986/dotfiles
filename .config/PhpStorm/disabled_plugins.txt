@@ -8,6 +8,9 @@ com.intellij.phing
 com.intellij.tasks.timeTracking
 com.jetbrains.php.gae
 com.jetbrains.php.joomla
+com.jetbrains.php.blade
+com.jetbrains.php.drupal
+com.jetbrains.plugins.asp
 com.jetbrains.php.phpspec
 com.jetbrains.php.wordPress
 com.pulyaevskiy.phpstorm.phpdi
