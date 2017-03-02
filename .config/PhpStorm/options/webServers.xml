@@ -9,6 +9,9 @@
           <option name="port" value="22" />
         </fileTransfer>
       </webServer>
+      <webServer id="10dcd5c1-a5c0-4cd5-9c22-7be42354be27" name="lis-lapland.docker" url="http://lis-lapland.docker">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
     </option>
   </component>
 </application>
