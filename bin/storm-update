@@ -5,6 +5,11 @@ cd
 
 LINK=$(wget https://confluence.jetbrains.com/display/PhpStorm/PhpStorm+Early+Access+Program -q -O - | grep -oP 'http://down[^"]*.tar.gz(?!")')
 
+if (( $? ));  then
+    echo "Can not find EAP"
+    exit
+fi
+
 OLD_VER=${$(cat PhpStorm/build.txt | sed 's/PS-//'):-0}
 NEW_VER=$(echo $LINK | grep -oP '(\d+\.)*\d+')
 
