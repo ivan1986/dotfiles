@@ -17,7 +17,7 @@
         <version value="1.0" />
       </component>
       <component name="MarkdownProjectSettings">
-        <PreviewSettings splitEditorLayout="FIRST" splitEditorPreview="NONE" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizePreviewPosition="false" highlightPreviewType="LINE" highlightFadeOut="5" highlightOnTyping="false" synchronizeSourcePosition="false">
+        <PreviewSettings splitEditorLayout="FIRST" splitEditorPreview="NONE" useGrayscaleRendering="false" zoomFactor="1.0" maxImageWidth="0" showGitHubPageIfSynced="false" allowBrowsingInPreview="false" synchronizePreviewPosition="false" highlightPreviewType="LINE" highlightFadeOut="5" highlightOnTyping="false" synchronizeSourcePosition="false" verticallyAlignSourceAndPreviewSyncPosition="true" showSearchHighlightsInPreview="true" showSelectionInPreview="true">
           <PanelProvider>
             <provider providerId="com.vladsch.idea.multimarkdown.editor.swing.html.panel" providerName="Default - Swing" />
           </PanelProvider>
@@ -26,6 +26,7 @@
           <PegdownExtensions>
             <option name="ABBREVIATIONS" value="false" />
             <option name="ANCHORLINKS" value="true" />
+            <option name="ASIDE" value="false" />
             <option name="ATXHEADERSPACE" value="false" />
             <option name="AUTOLINKS" value="true" />
             <option name="DEFINITIONS" value="true" />

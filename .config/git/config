@@ -12,7 +12,7 @@
 
 [alias]
 	st = status --short
-	br = branch
+	b = "!git for-each-ref --sort='-committerdate' --format='%(color:green)%(committerdate:relative)%(color:reset)%09%(refname)' refs/heads | sed -e 's-refs/heads/--'"
 	ba = branch -a -v -v
 	ci = commit
 	co = checkout
@@ -21,14 +21,14 @@
 	pull-all = !"for b in $(git for-each-ref refs/heads --format='%(refname)') ; do git checkout ${b#refs/heads/} ; git pull --ff-only ; done"
 	it = "!git init && git commit -m 'root' --allow-empty"
 	please = push --force-with-lease
-	
+
 	d = diff -C
 	ds = diff -C --stat
 	dsp = diff -C --stat -p
 	dw = diff -C --color-words
-	
+
 	ls-del = ls-files -d
-	ls-mod = ls-files -m # включая удалённые файлы
+	ls-mod = ls-files -m
 	ls-new = ls-files --exclude-standard -o
 	ls-ign = ls-files --exclude-standard -o -i
 
@@ -43,7 +43,7 @@
 	lsd = log --graph '--pretty=tformat:%C(yellow)%h%Creset %Cgreen%ar%Creset %C(yellow)%d%Creset %s' --all --simplify-by-decoration
 	lg = log --graph '--pretty=tformat:%C(yellow)%h%Creset %Cgreen%ar%Creset %C(yellow)%d%Creset %s'
 	chlog = log --graph '--pretty=tformat:%h %d %s'
-	
+
 	amend = commit --amend -C HEAD
 	merc = merge --no-ff
 	msg = commit --amend
@@ -52,7 +52,7 @@
 
 	work-dir = !sh /usr/share/doc/git/contrib/workdir/git-new-workdir
 	logpick = log --pretty='tformat:%h %s'
-	
+
 [http]
 	sslVerify = false
 [branch]
