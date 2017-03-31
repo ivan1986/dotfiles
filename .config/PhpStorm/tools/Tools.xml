@@ -1,0 +1,9 @@
+<toolSet name="Tools">
+  <tool name="php-cs-fix" description="Run php-cs-fixer for current file" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="vendor/bin/php-cs-fixer" />
+      <option name="PARAMETERS" value="fix $FileRelativePath$ --verbose" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>
