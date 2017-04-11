@@ -2,6 +2,8 @@
   <component name="FileBasedIndex">
     <option name="registeredIndices">
       <list>
+        <option value="postcss.custom.media" />
+        <option value="postcss.custom.selector" />
         <option value="js.exported.index" />
         <option value="markdown.referenceable-text.index" />
         <option value="markdown.plain-text-element.index" />
