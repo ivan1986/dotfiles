@@ -1,5 +1,19 @@
 <application>
-  <component name="DatabaseSettings">
+  <component name="DatabaseSettings" version="1">
+    <text-mode in-literals="true">
+      <parameter-patterns>
+        <parameter-pattern value="\?(\d+)" predefined="true" />
+        <parameter-pattern value=":(\w+)" scope="*,-PostgreSQL" predefined="true" />
+        <parameter-pattern value="%\w+" scope="JAVA,Python" predefined="true" />
+        <parameter-pattern value="\$\{([^\{\}]*)\}" predefined="true" />
+        <parameter-pattern value="\$\(([^\)]+)\)" predefined="true" />
+        <parameter-pattern value="\$(\w+)\$" scope="*,-PostgreSQL" predefined="true" />
+        <parameter-pattern value="#(\w+)#" scope="XML" predefined="true" />
+        <parameter-pattern value="(?&lt;=\W|\A)\$(\d+|[a-zA-Z_](?:\w|\.)*)\$?(?=\W|\z)" scope="*,-SQL,Oracle,OracleSqlPlus,PostgreSQL,PostgresPLSQL" predefined="true" />
+        <parameter-pattern value="(?&lt;=\W|\A)#(\d+|[a-zA-Z_](?:\w|\.)*)#?(?=\W|\z)" scope="*,-SQL,Oracle,OracleSqlPlus,PostgreSQL,PostgresPLSQL" predefined="true" />
+        <parameter-pattern value="%\((\w+)\)s" scope="Python" predefined="true" />
+      </parameter-patterns>
+    </text-mode>
     <csv-formats>
       <csv-format name="Tab Separated Values (TSV)">
         <data>

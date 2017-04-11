@@ -61,6 +61,8 @@
 	enabled = 1
 [push]
 	default = simple
+[pull]
+	ff = only
 [fetch]
 	prune = true
 [credential]

@@ -4,7 +4,7 @@
 # since modifications to this file will be discarded when you
 # (re)install icewm.
 #
-prog Terminal xterm x-terminal-emulator -ls
+prog Terminal xterm x-terminal-emulator
 separator
 include /var/cache/xdg-menu/icewm/programs
 separator

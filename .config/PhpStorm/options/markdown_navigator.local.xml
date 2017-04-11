@@ -1,7 +1,7 @@
 <application>
   <component name="ApplicationLocal" sharedSettingsMigrated="true">
-    <DocumentSettings showHtmlPreview="false" verbatimLangInjections="true" htmlLangInjections="true" syntaxHighlighting="1" softWraps="0" softWrapAtMargin="true" showEmojiInGutter="false" showBreadcrumbText="true" maxBreadcrumbText="30" previewScrollDelay="500" typingUpdateDelay="500" enableAnnotator="true" hideDisabledButtons="false" disableGifImages="true" codeLikeStyleToggle="true" detectHtmlOnPaste="false" convertHtmlOnPaste="true" overrideEditorDragDropHandler="false" toggleStylePunctuations=".,:;!?" htmlMimeMaxImageWidth="100%" pdfMaxImageWidth="504pt" pdfFontFamily="" htmlMimeFontFamily="" />
-    <LicenseInformation licenseType="" showLicenseExpiration="true" showLicenseExpired="true" showFeatureUpdates="false" secureConnection="true">
+    <DocumentSettings showHtmlPreview="false" verbatimLangInjections="true" htmlLangInjections="true" syntaxHighlighting="1" softWraps="0" softWrapAtMargin="false" showEmojiInGutter="false" showBreadcrumbText="true" maxBreadcrumbText="30" previewScrollDelay="500" typingUpdateDelay="500" enableAnnotator="true" hideDisabledButtons="false" disableGifImages="true" codeLikeStyleToggle="true" detectHtmlOnPaste="false" convertHtmlOnPaste="true" overrideEditorDragDropHandler="false" toggleStylePunctuations=".,:;!?" htmlMimeMaxImageWidth="100%" pdfMaxImageWidth="504pt" pdfFontFamily="" htmlMimeFontFamily="" />
+    <LicenseInformation licenseType="" showLicenseExpiration="true" showLicenseExpired="true" showFeatureUpdates="true" secureConnection="true">
       <licenseCode />
       <activationCode />
     </LicenseInformation>
