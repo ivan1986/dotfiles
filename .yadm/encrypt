@@ -2,6 +2,7 @@
 .netrc
 .wakatime.cfg
 .config/git/credentials
+.config/composer/auth.json
 .gnupg/*.gpg
 .gnupg/*.kbx
 .gnupg/private-keys-v1.d/*.key
