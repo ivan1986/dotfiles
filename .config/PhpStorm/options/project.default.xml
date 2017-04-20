@@ -105,6 +105,7 @@
       </component>
       <component name="PropertiesComponent">
         <property name="settings.editor.selected.configurable" value="sshConsole" />
+        <property name="nodejs_interpreter_path" value="/usr/bin/node" />
       </component>
       <component name="SvnConfiguration">
         <configuration>$USER_HOME$/.subversion</configuration>
