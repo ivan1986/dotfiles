@@ -45,5 +45,5 @@ EOF
 fi
 
 if [[ -f $HOME/.config/idea.properties ]]; then
-    ln -sf $HOME/.config/idea.properties $HOME/PhpStorm/bin/idea.properties
+    ln -sf ../../.config/idea.properties $HOME/PhpStorm/bin/idea.properties
 fi
