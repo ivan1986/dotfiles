@@ -17,7 +17,7 @@ dpkg --compare-versions $OLD_VER "lt" $NEW_VER
 if (( ! $? ));  then
   echo "Update from $OLD_VER to $NEW_VER"
   cd
-  wget $LINK -O PhpStorm.tar.gz
+  wget -c $LINK -O PhpStorm.tar.gz
   tar -xf PhpStorm.tar.gz
   rm -rf PhpStorm
   mv PhpStorm-* PhpStorm
