@@ -1,0 +1,5 @@
+{
+    "require": {
+        "franzl/studio": "^0.12.0"
+    }
+}
