@@ -1,3 +1,4 @@
+prog "Google Chrome" /usr/share/icons/hicolor/16x16/apps/google-chrome-unstable.png /usr/bin/google-chrome
 prog "Google Chrome" /usr/share/icons/hicolor/16x16/apps/google-chrome.png /usr/bin/google-chrome-stable
 prog "Krusader" /usr/share/icons/hicolor/16x16/apps/krusader_user.png env XDG_CURRENT_DESKTOP=kde krusader -qwindowtitle Krusader
 prog "PhpStorm" /home/ivan/PhpStorm/bin/phpstorm.png /home/ivan/PhpStorm/bin/phpstorm.sh
