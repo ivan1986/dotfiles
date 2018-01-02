@@ -1,4 +1,5 @@
 -f 'bestvideo[height<=720]+bestaudio/best[height<=720]'
 --netrc
 --mark-watched
+-o "%(title)s-%(id)s.%(ext)s"
 
