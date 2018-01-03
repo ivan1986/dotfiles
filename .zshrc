@@ -16,18 +16,15 @@ if [[ ! -f /usr/share/zplug/init.zsh ]]; then
 
     # Essential
 	source ~/.zplug/init.zsh
-	zplug 'zplug/zplug', hook-build:'zplug --self-manage'
 else
 	source /usr/share/zplug/init.zsh
 fi
 
 autoload zsh/terminfo
 
-#zplug 'zplug/zplug', hook-build:'zplug --self-manage'
-
 zplug "plugins/git-prompt", from:oh-my-zsh
 
-zplug "~/.config/zsh", from:local
+zplug "~/.config/zsh/*.zsh", from:local
 
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-history-substring-search"
