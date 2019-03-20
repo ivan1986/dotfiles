@@ -2,6 +2,7 @@ CVS
 PerforceDirectPlugin
 W3Validators
 XSLT-Debugger
+Subversion
 com.intellij.copyright
 com.intellij.diagram
 com.intellij.phing
@@ -21,3 +22,4 @@ org.bitbucket.connector
 org.intellij.plugins.markdown
 org.jetbrains.plugins.vagrant
 org.jetbrains.settingsRepository
+org.jetbrains.plugins.haml

@@ -1,5 +1,0 @@
-<application>
-  <component name="NodeJSRemoteInterpreters">
-    <interpreter node-remote-interpreter="sftp://vagrant@stripchat.local:22/opt/nodejs/bin/node" WEB_SERVER_CONFIG_ID="eb89ef99-8503-430d-8e98-62f00e8037c7" WEB_SERVER_CONFIG_NAME="Copy of project-level server 'docker'" HOST="stripchat.local" PORT="22" ANONYMOUS="false" USERNAME="vagrant" PASSWORD="" PRIVATE_KEY_FILE="" MY_KNOWN_HOSTS_FILE="" PASSPHRASE="" USE_KEY_PAIR="false" INTERPRETER_PATH="/opt/nodejs/bin/node" HELPERS_PATH="/vagrant/.webstorm_nodejs_helpers" INITIALIZED="false" VALID="true" VERSION="6.0.0" />
-  </component>
-</application>

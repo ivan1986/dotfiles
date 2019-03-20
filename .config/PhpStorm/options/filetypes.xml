@@ -4,8 +4,8 @@
       <mapping pattern="console" type="PHP" />
       <mapping pattern=".php_cs.dist" type="PHP" />
       <mapping pattern=".php_cs" type="PHP" />
-      <mapping pattern="ssh-config" type="PLAIN_TEXT" />
       <mapping ext="cfg" type="PLAIN_TEXT" />
+      <mapping ext=".json.dist" type="JSON" />
     </extensionMap>
   </component>
 </application>

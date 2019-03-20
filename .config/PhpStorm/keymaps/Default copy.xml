@@ -1,0 +1,6 @@
+<keymap version="1" name="Default copy" parent="Default for XWin">
+  <action id="EditorAddOrRemoveCaret">
+    <mouse-shortcut keystroke="alt button1" />
+    <mouse-shortcut keystroke="shift alt button1" />
+  </action>
+</keymap>
