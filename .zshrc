@@ -43,6 +43,7 @@ fi
 # Then, source plugins and add commands to $PATH
 zplug load
 
+source ~/.config/zsh/symfony2.zsh
 source ~/.config/zsh/vars
 
 # Set the prompt.
@@ -110,3 +111,6 @@ bindkey '^[[1;5D' backward-word
 export EMAIL=ivan1986@list.ru
 export DEBFULLNAME="Ivan Borzenkov"
 export DEBEMAIL=ivan1986@list.ru
+
+alias dquilt="quilt --quiltrc=${HOME}/.quiltrc-dpkg"
+

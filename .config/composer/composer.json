@@ -1,5 +1,7 @@
 {
     "require": {
-        "franzl/studio": "^0.12.0"
+        "franzl/studio": "^0.12.0",
+        "friendsofphp/php-cs-fixer": "^2.13",
+        "bamarni/symfony-console-autocomplete": "^1.3"
     }
 }
