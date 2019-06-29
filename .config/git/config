@@ -70,3 +70,5 @@
 
 [include]
   path = user
+[core]
+	excludesfile = ~/.config/git/ignore
