@@ -1,0 +1,32 @@
+#!/bin/sh
+
+apt install \
+\
+apt-config-auto-update \
+unattended-upgrades \
+
+cat > /etc/apt/apt.conf.d/51unattended-upgrades-config <<FILE
+// All info in 50unattended-upgrades
+
+Unattended-Upgrade::DevRelease "true";
+
+Unattended-Upgrade::Allowed-Origins {
+	"${distro_id}:${distro_codename}";
+	"${distro_id}:${distro_codename}-security";
+	"${distro_id}:${distro_codename}-updates";
+	"${distro_id}:${distro_codename}-proposed";
+	"${distro_id}:${distro_codename}-backports";
+};
+
+//Unattended-Upgrade::Origins-Pattern {
+//        "origin=*";
+//};
+
+Unattended-Upgrade::MinimalSteps "true";
+
+Unattended-Upgrade::Remove-Unused-Kernel-Packages "true";
+Unattended-Upgrade::Remove-New-Unused-Dependencies "true";
+Unattended-Upgrade::Remove-Unused-Dependencies "true";
+
+FILE
+
