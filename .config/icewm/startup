@@ -9,5 +9,5 @@ megasync &
 fbxkb &
 conky &
 
-redshift-gtk &
+redshift-gtk -l 53:34 &
 
