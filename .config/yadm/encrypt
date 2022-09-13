@@ -1,4 +1,4 @@
-.ssh/id_rsa
+.ssh/id_*
 .netrc
 .wakatime.cfg
 .config/git/credentials
