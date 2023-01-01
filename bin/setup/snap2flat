@@ -1,0 +1,5 @@
+#!/bin/sh
+sudo systemctl stop snapd
+sudo apt remove --purge --assume-yes snapd gnome-software-plugin-snap
+sudo apt install flatpak
+flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
