@@ -3,21 +3,30 @@ source /etc/profile
 ### Раскомментируйте строчку ниже, если хотите использовать команду Ubuntu «command not found»
 #. /etc/zsh_command_not_found
 
+# # Use powerline
+# USE_POWERLINE="true"
+# # Source manjaro-zsh-configuration
+# if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
+#   source /usr/share/zsh/manjaro-zsh-config
+# fi
+
 # задаем массивы для функций, выполняемых по событиям
 typeset -ga preexec_functions
 typeset -ga precmd_functions
 typeset -ga chpwd_functions
 
-if [[ ! -f /usr/share/zplug/init.zsh ]]; then
-	# Check if zplug is installed
-	if [[ ! -d ~/.zplug ]]; then
-		git clone --depth 1 https://github.com/zplug/zplug ~/.zplug
-	fi
-
+if [[ -f /usr/share/zsh/scripts/zplug/init.zsh ]]; then
+    source /usr/share/zsh/scripts/zplug/init.zsh
+else if [[ -f /usr/share/zplug/init.zsh ]]; then
+   source /usr/share/zplug/init.zsh
+else
+   # Check if zplug is installed
+   if [[ ! -d ~/.zplug ]]; then
+       git clone --depth 1 https://github.com/zplug/zplug ~/.zplug
+   fi
     # Essential
 	source ~/.zplug/init.zsh
-else
-	source /usr/share/zplug/init.zsh
+fi
 fi
 
 autoload zsh/terminfo
@@ -106,11 +115,3 @@ bindkey '^D' list-choices
 
 bindkey '^[[1;5C' forward-word
 bindkey '^[[1;5D' backward-word
-
-### для сборки деб пакетов
-export EMAIL=ivan1986@list.ru
-export DEBFULLNAME="Ivan Borzenkov"
-export DEBEMAIL=ivan1986@list.ru
-
-alias dquilt="quilt --quiltrc=${HOME}/.quiltrc-dpkg"
-
