@@ -23,3 +23,6 @@ sudo aptitude markauto '~i~slibs' '~i~sperl'
 
 sudo apt autoremove
 sudo aptitude purge '~c'
+
+sudo systemctl disable NetworkManager-wait-online.service
+sudo systemctl mask NetworkManager-wait-online.service
