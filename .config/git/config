@@ -46,6 +46,7 @@
 
 	amend = commit --amend -C HEAD
 	merc = merge --no-ff
+	mr = push -o merge_request.create
 	msg = commit --amend
 	uncommit = reset --hard HEAD^
 	unstash = reset HEAD

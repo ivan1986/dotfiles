@@ -38,6 +38,7 @@ clearDockerImages() {
 #по умолчанию патчим с уровнем 1
 alias patch="patch -p1"
 alias ytdl="youtube-dl"
+alias myip="curl ifconfig.co"
 
 dlPlayList() {
 	until youtube-dl $@; do; done

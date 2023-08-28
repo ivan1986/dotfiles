@@ -10,7 +10,7 @@ export EDITOR=vim
 #####################################################################
 ### GREP цвета
 alias grep='grep --color=auto'
-export GREP_COLOR='1;33'
+export GREP_COLOR='mt=1;33'
 
 # ООо и русские имена файлов 
 export OOO_FORCE_DESKTOP=gnome
