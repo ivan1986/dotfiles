@@ -1,13 +1,32 @@
 <application>
-  <component name="FileTypeManager" version="18">
+  <component name="FileTypeManager" version="19">
     <extensionMap>
+      <mapping pattern="crontab_poll" type="AUTO_DETECTED" />
+      <mapping pattern="run-cron-dropcatch" type="AUTO_DETECTED" />
+      <mapping pattern="crontab_dropcatch" type="AUTO_DETECTED" />
+      <mapping pattern="crontab_aftermarket" type="AUTO_DETECTED" />
+      <mapping pattern="run-workers" type="AUTO_DETECTED" />
+      <mapping pattern="run-cron-sanity" type="AUTO_DETECTED" />
+      <mapping pattern="run-cron" type="AUTO_DETECTED" />
+      <mapping pattern="crontab_auction" type="AUTO_DETECTED" />
+      <mapping pattern="crontab_sanity" type="AUTO_DETECTED" />
+      <mapping pattern="crontab_autorenew" type="AUTO_DETECTED" />
+      <mapping pattern="run-cron-autorenew" type="AUTO_DETECTED" />
+      <mapping pattern="run-cron-poll" type="AUTO_DETECTED" />
+      <mapping pattern="run-cron-aftermarket" type="AUTO_DETECTED" />
+      <mapping pattern="run-cron-auction" type="AUTO_DETECTED" />
+      <mapping ext="neon" type="AUTO_DETECTED" />
       <mapping ext=".json.dist" type="JSON" />
+      <mapping pattern=".php_cs" type="PHP" />
       <mapping pattern="console" type="PHP" />
       <mapping pattern=".php_cs.dist" type="PHP" />
-      <mapping pattern=".php_cs" type="PHP" />
+      <mapping ext="serialized" type="PLAIN_TEXT" />
       <removed_mapping ext="bat" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="cmd" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
       <removed_mapping ext="dockerfile" approved="true" type="textmate" />
+      <removed_mapping ext="dockerignore" approved="true" type="DockerIgnore file" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <removed_mapping ext="log" approved="true" type="PLAIN_TEXT" />
       <removed_mapping ext="makefile" approved="true" type="textmate" />
       <removed_mapping ext="snakefile" approved="true" type="textmate" />

@@ -2,10 +2,14 @@ Karma
 PerforceDirectPlugin
 Subversion
 W3Validators
+com.codeium.intellij
 com.intellij.CloudConfig
 com.intellij.apacheConfig
+com.intellij.classic.ui
 com.intellij.copyright
 com.intellij.diagram
+com.intellij.ja
+com.intellij.ko
 com.intellij.phing
 com.intellij.plugins.eclipsekeymap
 com.intellij.plugins.netbeanskeymap
@@ -16,6 +20,7 @@ com.intellij.plugins.webcomponents
 com.intellij.settingsSync
 com.intellij.tasks
 com.intellij.tasks.timeTracking
+com.intellij.zh
 com.jetbrains.codeWithMe
 com.jetbrains.php.blade
 com.jetbrains.php.drupal
@@ -25,10 +30,12 @@ com.jetbrains.php.wordPress
 com.jetbrains.plugins.asp
 com.jetbrains.space
 com.kalessil.phpStorm.phpInspectionsEA
+com.majera.intellij.codereview.gitlab
+com.tabbyml.intellij-tabby
+com.yii2support
 cucumber-javascript
 hg4idea
 intellij.nextjs
-name.kropp.intellij.makefile
 org.coffeescript
 org.intellij.qodana
 org.jetbrains.plugins.haml
