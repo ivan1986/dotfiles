@@ -58,10 +58,11 @@
 	sslVerify = false
 [branch]
 	autosetuprebase = always
+	autoSetupMerge = simple
 [rerere]
 	enabled = 1
 [push]
-	default = simple
+	default = current
 	autoSetupRemote = true
 [pull]
 	ff = only
