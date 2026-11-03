@@ -32,6 +32,15 @@ window-rule {
 }
 
 window-rule {
+    match app-id="Gitk"
+
+    default-floating-position x=0 y=100 relative-to="top"
+    default-window-height { proportion 0.7; }
+    default-column-width { proportion 0.7; }
+    open-floating true
+}
+
+window-rule {
     match app-id="org.keepassxc.KeePassXC"
     match app-id="kitty-drop"
     
@@ -39,6 +48,11 @@ window-rule {
     default-window-height { proportion 0.8; }
     default-column-width { proportion 0.85; }
     open-floating true
+}
+
+window-rule {
+    match app-id="steam" title=r#"^notificationtoasts_\d+_desktop$"#
+    default-floating-position x=10 y=10 relative-to="bottom-right"
 }
 
 // Example: block out two password managers from screen capture.
